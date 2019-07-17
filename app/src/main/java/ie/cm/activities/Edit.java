@@ -86,7 +86,7 @@ public class Edit extends Base {
 		} else
 			toastMessage("You must Enter Something for Name and Shop");
 
-		//goToActivity(this,Home.class, activityInfo);
+		goToActivity(this,Home.class, activityInfo);
 	}
 
 	public void toggle(View arg0) {
