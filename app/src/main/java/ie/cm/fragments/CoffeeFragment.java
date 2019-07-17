@@ -85,7 +85,7 @@ public class CoffeeFragment  extends ListFragment implements  OnClickListener
   public void onListItemClick(ListView l, View v, int position, long id)
   {
     Bundle activityInfo = new Bundle();
-    activityInfo.putInt("coffeeID", position);
+    activityInfo.putInt("coffeeID", position + 1);
 
     Intent goEdit = new Intent(getActivity(), Edit.class);
     goEdit.putExtras(activityInfo);
